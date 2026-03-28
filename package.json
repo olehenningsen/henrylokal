@@ -1,7 +1,7 @@
 {
   "name": "henrylokal",
   "version": "1.0.0",
-  "description": "Henry Lokal — De steder du ikke finder på stiften.dk",
+  "description": "Karner Lokal — De steder du ikke finder på stiften.dk",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

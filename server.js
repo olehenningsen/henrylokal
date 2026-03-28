@@ -168,5 +168,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🎵 Henry Lokal kører på http://localhost:${PORT}`);
+  console.log(`🎵 Karner Lokal kører på http://localhost:${PORT}`);
 });

@@ -1,5 +1,5 @@
 // ============================================
-// Henry Lokal — Frontend App
+// Karner Lokal — Frontend App
 // ============================================
 
 let currentPage = 'home';
