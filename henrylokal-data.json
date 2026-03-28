@@ -1,0 +1,130 @@
+{
+  "venues": [
+    {
+      "id": "v1",
+      "name": "Kælderen",
+      "address": "Jægergårdsgade 27, 8000 Aarhus",
+      "neighborhood": "Frederiksbjerg",
+      "description": "En lille kælderkoncertsal med rå murstensvægge og plads til 60 mennesker. Intim stemning, gode drinks og altid spændende bookinger. Stedet hvor du opdager dit næste yndlingsband.",
+      "vibe": "Rå, intim, underjordisk",
+      "website": "",
+      "tags": ["jazz", "indie", "experimental"]
+    },
+    {
+      "id": "v2",
+      "name": "Vinyl & Vino",
+      "address": "Nordre Strandvej 4, 8000 Aarhus",
+      "neighborhood": "Trøjborg",
+      "description": "Vinbar med pladespiller og live akustiske sets fredag og lørdag. Naturvin, bruschetta og singer-songwriters. Det perfekte sted til en afslappet aften.",
+      "vibe": "Hyggelig, afslappet, vinbar",
+      "website": "https://vinylogvino.dk",
+      "tags": ["acoustic", "singer-songwriter", "folk"]
+    },
+    {
+      "id": "v3",
+      "name": "Bag Muren",
+      "address": "Volden 18, 8000 Aarhus",
+      "neighborhood": "Latinerkvarteret",
+      "description": "Skjult cocktailbar i en baggård i Latinerkvarteret. Ingen skilt, bare en sort dør. Hver onsdag er der jazz jam session med lokale musikere. Reservér bord — der er kun 30 pladser.",
+      "vibe": "Hemmelig, sofistikeret, jazz",
+      "website": "",
+      "tags": ["jazz", "cocktails", "intimate"]
+    },
+    {
+      "id": "v4",
+      "name": "Lydboksen",
+      "address": "Silkeborgvej 102, 8000 Aarhus",
+      "neighborhood": "Åbyhøj",
+      "description": "Forhenværende garageværksted omdannet til lokalt spillested. DIY-ånd, billige øl og plads til 100 mennesker. Open mic hver tirsdag, koncerter i weekenden.",
+      "vibe": "DIY, rå, energisk",
+      "website": "https://lydboksen.dk",
+      "tags": ["rock", "punk", "open-mic", "indie"]
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "venueId": "v1",
+      "title": "Midnatsjazz med Trio Mørk",
+      "date": "2026-04-03",
+      "time": "21:00",
+      "description": "Trio Mørk spiller mørk, atmosfærisk jazz inspireret af nordisk natur. Kontrabas, saxofon og piano i perfekt samspil. Begrænset antal billetter.",
+      "musicType": "jazz",
+      "price": "cheap",
+      "moreInfoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "e2",
+      "venueId": "v2",
+      "title": "Akustisk Fredag: Emma Holm",
+      "date": "2026-04-04",
+      "time": "20:00",
+      "description": "Emma Holm spiller sange fra sit kommende album 'Stilheden Mellem'. Intime, personlige tekster over fingerspillet guitar. Gratis entré, køb en flaske vin og nyd aftenen.",
+      "musicType": "acoustic",
+      "price": "free",
+      "moreInfoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "e3",
+      "venueId": "v3",
+      "title": "Onsdag Jazz Jam",
+      "date": "2026-04-01",
+      "time": "20:30",
+      "description": "Den ugentlige jazz jam session. Husbandet varmer op kl. 20:30, og fra kl. 21:30 er scenen åben for alle. Tag dit instrument med.",
+      "musicType": "jazz",
+      "price": "free",
+      "moreInfoUrl": "",
+      "featured": false
+    },
+    {
+      "id": "e4",
+      "venueId": "v4",
+      "title": "Open Mic Tirsdag",
+      "date": "2026-03-31",
+      "time": "19:30",
+      "description": "Tilmeld dig på stedet fra kl. 19:00. Alle genrer velkomne — akustisk, poetry slam, comedy, whatever. 10 minutter per act. Billige øl hele aftenen.",
+      "musicType": "open-mic",
+      "price": "free",
+      "moreInfoUrl": "",
+      "featured": false
+    },
+    {
+      "id": "e5",
+      "venueId": "v4",
+      "title": "Støjaften: Rawgaze + Neon Drift",
+      "date": "2026-04-05",
+      "time": "21:00",
+      "description": "To lokale bands slår sig løs med shoegaze, noise rock og alt derimellem. Ørepropper anbefales. Billigt øl, højt humør.",
+      "musicType": "rock",
+      "price": "cheap",
+      "moreInfoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "e6",
+      "venueId": "v1",
+      "title": "Eksperimental Aften: Klangbund",
+      "date": "2026-04-10",
+      "time": "20:00",
+      "description": "Klangbund udforsker grænselandet mellem elektronisk musik og akustisk improv. Synthesizere møder cello i en hypnotisk lydoplevelse.",
+      "musicType": "experimental",
+      "price": "moderate",
+      "moreInfoUrl": "",
+      "featured": false
+    },
+    {
+      "id": "e7",
+      "venueId": "v2",
+      "title": "Lørdag Session: Folk Duo 'Rodfæste'",
+      "date": "2026-04-11",
+      "time": "19:30",
+      "description": "Rodfæste spiller dansk folk med et moderne twist. Violin, guitar og tostemmet sang. Perfekt til et glas rødvin og en lørdag aften i slow motion.",
+      "musicType": "folk",
+      "price": "free",
+      "moreInfoUrl": "",
+      "featured": false
+    }
+  ]
+}

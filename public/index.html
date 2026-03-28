@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Henry Lokal 🎵 — Livescenen i Aarhus</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div>
+        <a class="logo" onclick="navigate('home')">Henry Lokal 🎵</a>
+        <div class="tagline">De steder du ikke finder på stiften.dk</div>
+      </div>
+      <nav class="header-nav">
+        <button class="nav-btn" onclick="navigate('home')" id="nav-events">Events</button>
+        <button class="nav-btn" onclick="navigate('venues')" id="nav-venues">Spillesteder</button>
+        <button class="nav-btn" onclick="navigate('admin')" id="nav-admin">⚙️</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HOME / EVENTS ===== -->
+  <main id="page-home" class="container">
+    <div class="hero">
+      <h1>🎵 Hvad sker der i aften?</h1>
+      <p>Livescenen i Aarhus — de steder du skal kende</p>
+    </div>
+
+    <div class="filters">
+      <select class="filter-select" id="filter-music" onchange="loadEvents()">
+        <option value="">Alle genrer</option>
+        <option value="jazz">Jazz</option>
+        <option value="acoustic">Akustisk</option>
+        <option value="rock">Rock</option>
+        <option value="folk">Folk</option>
+        <option value="experimental">Eksperimentel</option>
+        <option value="open-mic">Open Mic</option>
+        <option value="singer-songwriter">Singer-songwriter</option>
+      </select>
+      <select class="filter-select" id="filter-neighborhood" onchange="loadEvents()">
+        <option value="all">Alle kvarterer</option>
+      </select>
+      <select class="filter-select" id="filter-date" onchange="loadEvents()">
+        <option value="">Alle datoer</option>
+      </select>
+    </div>
+
+    <div id="featured-section">
+      <h2 class="section-title">✨ Udvalgte</h2>
+      <div id="featured-events"></div>
+    </div>
+
+    <div id="upcoming-section">
+      <h2 class="section-title">Kommende events <span class="count" id="event-count"></span></h2>
+      <div id="events-list"></div>
+    </div>
+  </main>
+
+  <!-- ===== VENUES ===== -->
+  <main id="page-venues" class="container hidden">
+    <div class="hero">
+      <h1>🍷 Spillesteder</h1>
+      <p>De bedste steder til live musik i Aarhus</p>
+    </div>
+    <div id="venues-list"></div>
+  </main>
+
+  <!-- ===== VENUE DETAIL ===== -->
+  <main id="page-venue-detail" class="container hidden">
+    <div id="venue-detail-content"></div>
+  </main>
+
+  <!-- ===== ADMIN ===== -->
+  <main id="page-admin" class="container hidden">
+    <div id="admin-content"></div>
+  </main>
+
+  <footer>
+    <p>Henry Lokal 🎵 — Lavet med ❤️ til Aarhus' undergrund</p>
+  </footer>
+
+  <div id="modal-container"></div>
+  <div id="toast-container"></div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
